@@ -38,12 +38,14 @@
 
 [Nodejs.org](https://nodejs.org/) by the [OpenJS Foundation](https://openjsf.org/) is the official website for the Node.js® JavaScript runtime. This repo is the source code for the website. It is built using [Next.js](https://nextjs.org), a React Framework.
 
+
 ```bash
 pnpm install --frozen-lockfile
 pnpm dev
 
 # listening at localhost:3000
 ```
+
 
 ## Contributing
 
@@ -56,6 +58,7 @@ Any person who wants to contribute to the Website is welcome! Please read [Contr
 
 > \[!NOTE]\
 > We recommend a read of all Relevant Links below before doing code changes; Including Dependency changes, Content changes, and Code changes.
+
 
 ### Deployment
 
@@ -74,6 +77,7 @@ The webhook is set up on GitHub for this project and talks to a small Node serve
 
 </details>
 
+
 ## Node.js Binaries & API Docs
 
 This repository does not contain the codebase or related infrastructure that serves `https://nodejs.org/api/`, `https://nodejs.org/docs/` or `https://nodejs.org/dist/`.
@@ -85,6 +89,7 @@ These are maintained in different repositories and we urge users to open **issue
 - [`node/doc/api`](https://github.com/nodejs/node/tree/main/doc/api): The source code of our API docs, it contains all the Node.js API Documentation Markdown files
   - [`node/doc`](https://github.com/nodejs/node/tree/main/doc) contains the HTML templates, CSS styles and JavaScript code that runs on the client-side of our API Docs generated pages.
   - [`node/tools/doc`](https://github.com/nodejs/node/tree/main/tools/doc) contains the tooling that validates, lints, builds and compiles our API Docs. Also responsible for generating what you see when accessing `https://nodejs.org/api/`.
+
 
 ## Relevant Links
 
@@ -105,6 +110,7 @@ These are maintained in different repositories and we urge users to open **issue
 [Translation Guidelines][]
 
 [Status Page](https://status.nodejs.org/) of the Node.js web infrastructure.
+
 
 ## Thanks
 
